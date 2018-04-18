@@ -1,7 +1,7 @@
 # Home Assistant s RGB LED páskem
 
 Zdrojové kódy jsou převzaty od bruhautomation a jsou dostupné na adrese https://github.com/bruhautomation/ESP-MQTT-JSON-Digital-LEDs. 
-Zdrojové kódy byly upraven tak, aby bylo možné projekt zkompilovat a nahrát do ESP32. Dále byly obohaceny o detekci pohybu pomocí PIR senzoru a předávání stavu senzoru platformě Home Assistant. Komunikace mezi platformou Home Assistant a ESP32 probíhá ve formátu JSON.
+Zdrojové kódy byly upraveny tak, aby bylo možné projekt zkompilovat a nahrát do ESP32. Dále byly obohaceny o detekci pohybu pomocí PIR senzoru a předávání stavu senzoru platformě Home Assistant. Komunikace mezi platformou Home Assistant a ESP32 probíhá ve formátu JSON.
 
 ### Funkcionality
 - Výběr několika světelných efektů 
