@@ -31,7 +31,7 @@ https://www.home-assistant.io/components/mqtt/
 https://www.root.cz/clanky/protokol-mqtt-komunikacni-standard-pro-iot/
 
 ### Zapojení
-![alt text](https://github.com/stuchlajz/pds/edit/master/zapojeni.png?raw=true "Zapojení")
+![alt text](https://github.com/stuchlajz/pds/blob/master/Zapojen%C3%AD.png?raw=true "Zapojení")
 
 #### Hardware
 - Digitální RGB LED pásek
