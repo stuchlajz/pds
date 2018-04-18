@@ -13,7 +13,7 @@ Zdrojové kódy byly upraven tak, aby bylo možné projekt zkompilovat a nahrát
 - Automatické zapnutí LED pásku při detekci pohybu
 - Časovač pro vypnutí LED pásku
 - Komunikace v JSON
-
+![alt text](https://github.com/stuchlajz/pds/blob/master/HA.PNG?raw=true "Zapojení")
 
 ### Co budete potřebovat
 
@@ -31,7 +31,7 @@ https://www.home-assistant.io/components/mqtt/
 https://www.root.cz/clanky/protokol-mqtt-komunikacni-standard-pro-iot/
 
 ### Zapojení
-![alt text](https://github.com/stuchlajz/pds/blob/master/Zapojen%C3%AD.png?raw=true "Zapojení")
+![alt text](https://github.com/stuchlajz/pds/blob/master/Zapojeni.png?raw=true "Zapojení")
 
 #### Hardware
 - Digitální RGB LED pásek
