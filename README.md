@@ -21,7 +21,7 @@ Zdrojové kódy byly upraveny pro desku ESP32. Dále byly obohaceny o detekci po
 
 - Arduino IDE
 https://www.arduino.cc/en/main/software
-- Instalace ESP32 Desky v Arduino IDE
+- Instalace ESP32 desky v Arduino IDE
 http://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/
 - Instalace Home Assistant na Raspberry Pi
 https://www.home-assistant.io/getting-started/
@@ -63,13 +63,13 @@ https://www.root.cz/clanky/protokol-mqtt-komunikacni-standard-pro-iot/
     - seznam příjemců, kteří budou dostávat notifikace
   sender_name: My Home Assistant
   ```
-4)	Dále budeme notifikace volat v automatizaci viz. **configuration.yaml**
+4)	Dále budeme připravená notifikace použita v automatizaci viz. **configuration.yaml**
 #### Telegram:
-1)	Nejprve je potřeba vytvořit nového bota na adrese https://web.telegram.org/#/im nebo v aplikaci telegram dáme vyhledat **botfather**
+1)	Nejprve je potřeba vytvořit nového bota na adrese https://web.telegram.org/#/im nebo v aplikaci telegram vyhledejte **botfather**
 2)	Poté vytvoříme nového bota odesláním zprávy **/newbot**
 3)	Dále budete vyzváni pro zadání jména bota a poté uživatelského jména. Uživatelské jméno musí obsahovat slovo **bot**
 4)	Nyní obdržíte **API KEY**, který budete potřebovat dále
-5)	Dále potřebujeme získat **CHAT ID**. Přejděte do konverzace s vaším nově vytvořeným botem a zadejte **/getid**
+5)	Dále potřebujete získat **CHAT ID**. Přejděte do konverzace s vaším nově vytvořeným botem a zadejte **/getid**
 6)	V tuto chvíli byste měli obdržet vaše CHAT ID, které budeme potřebovat dále
 7)	Do souboru **configuration.yaml** vyhledejte tyto řádky a vložte do nich váš **CHAT ID** a **API KEY**
 ```yaml
@@ -79,11 +79,11 @@ telegram_bot:
    allowed_chat_ids:
    - VÁŠ CHAT ID
 ```
-8)	Dále v souboru **notify.yaml**  vyhledejte tyto řádky a vložte tam váš **CHAT ID**
+8)	Dále v souboru **notify.yaml**  vyhledejte tyto řádky a vložte váš **CHAT ID**
 ```yaml
 - platform: telegram
   name: telegram
   chat_id: VAŠE CHAT ID
   ```
-První notifikace je odeslána pokaždé, když PIR senzor detekuje pohyb a následně je spuštěn odpočet přibližně 1 minuty. Po tuto dobu je pohyb signalizován pouze v Home Assistant. Po uplynutí tohoto času může být odeslána další notifikace. Jednotlivé notifikace je možné libovolně kombinovat nebo je vypnout úplně. 
+První notifikace je odeslána pokaždé, když PIR senzor detekuje pohyb a následně je spuštěn odpočet přibližně 1 minuty. Po tuto dobu je pohyb signalizován pouze v Home Assistant. Po uplynutí tohoto času, může být odeslána další notifikace. Jednotlivé notifikace je možné libovolně kombinovat nebo je vypnout úplně. 
 
