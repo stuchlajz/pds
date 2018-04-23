@@ -96,13 +96,15 @@ První notifikace je odeslána pokaždé, když PIR senzor detekuje pohyb a nás
   "brightness":124,
   "effect":"police one"
 }
-
-#### Změna rychlosti
-{ "transition":91}
-
-## PIR senzor
-{"motion":"StandBy"}
-
-
 ```
+#### Změna rychlosti
+```json
+{ "transition":91}
+```
+## PIR senzor
+```json
+{"motion":"StandBy"}
+```
+
+
 
