@@ -87,3 +87,22 @@ telegram_bot:
   ```
 První notifikace je odeslána pokaždé, když PIR senzor detekuje pohyb a následně je spuštěn odpočet přibližně 1 minuty. Po tuto dobu je pohyb signalizován pouze v Home Assistant. Po uplynutí tohoto času, může být odeslána další notifikace. Jednotlivé notifikace je možné libovolně kombinovat nebo je vypnout úplně. 
 
+## Úkazka protokolu
+### Led pásek
+```json
+{
+  "state":"ON",
+  "color":{"r":255,"g":255,"b":255},
+  "brightness":124,
+  "effect":"police one"
+}
+
+#### Změna rychlosti
+{ "transition":91}
+
+## PIR senzor
+{"motion":"StandBy"}
+
+
+```
+
